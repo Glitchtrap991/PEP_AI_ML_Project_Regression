@@ -51,13 +51,15 @@ The model output shows the calculated coefficients:
 
 | Coefficient | Value | Interpretation |
 | :--- | :--- | :--- |
-| **Slope ($m$)** | (Insert your calculated slope here) | Score increase per one extra hour of study. |
-| **Intercept ($c$)**| (Insert your calculated intercept here)| Predicted score for 0 hours of study. |
+| **Slope ($m$)** | 5.87 | Score increase per one extra hour of study. |
+| **Intercept ($c$)**|39.02 | Predicted score for 0 hours of study. |
 
 ### Performance Metrics
 The model was evaluated using the Mean Absolute Error (MAE):
 
-* **Mean Absolute Error (MAE):** (Insert your calculated MAE here) - *This means the model's predictions are, on average, off by this many points.*
+* **Mean Absolute Error (MAE):** 10.84 - _*This means the model's predictions are, on average, off by this many points.*_
+* **Mean Squared Error (MAE):** 170.09 - _*Calculates the average of the squared errors. Because errors are squared, this metric gives disproportionately high weight to large errors (outliers), making it useful for optimizing the model. *_
+* **R-Squared (R2) :** 0.52 - _**Goodness of Fit:** Represents the proportion of the variance in the dependent variable (Score) that is predictable from the independent variable (Hours Studied). The value ranges from 0 to 1, where a value closer to 1 indicates a better fit._
 
 ### Visual Output
 (Optional: Include a link to an image of your scatter plot with the regression line for visual impact!)
@@ -65,10 +67,10 @@ The model was evaluated using the Mean Absolute Error (MAE):
 ## 🔮 Sample Prediction
 
 Using the trained model, if a student studies for **9.25 hours**:
-* **Predicted Score:** (Insert the final prediction value here)
+* **Predicted Score:** 91.82
 
 ---
 
 ## ✍️ Author
 
-* Your Name / GitHub Username (e.g., Glitchtrap991)
+* Glitchtrap991
